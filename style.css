@@ -1,0 +1,91 @@
+.body {
+  background-image: linear-gradient(
+    to right bottom,
+    #29091b,
+    #35162e,
+    #3e2443,
+    #443459,
+    #46446f,
+    #41517e,
+    #385f8c,
+    #2c6c98,
+    #14779e,
+    #0082a0,
+    #008ca0,
+    #02969e
+  );
+  height: 100vh;
+}
+
+.container {
+  height: 100%; /* Set the height to 100% of the parent (body) */
+}
+
+.btn {
+  padding-top: 2em;
+  background-image: radial-gradient(
+    circle,
+    #0b0308,
+    #160f16,
+    #1d1721,
+    #231f2d,
+    #26273a,
+    #293249,
+    #293e58,
+    #254a66,
+    #1d5c78,
+    #0e6f88,
+    #008395,
+    #02969e
+  );
+  color: white !important;
+  text-decoration: none;
+  border: 2px solid black; /* Set the border color to black */
+  box-shadow: 3px 3px 10px gray; /* Set a gray shadow */
+}
+
+.card2 {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 156, 154, 0.8),
+    rgba(4, 161, 159, 0.8),
+    rgba(8, 166, 164, 0.8),
+    rgba(13, 172, 170, 0.8),
+    rgba(17, 177, 175, 0.8),
+    rgba(17, 181, 180, 0.8),
+    rgba(17, 184, 184, 0.8),
+    rgba(17, 188, 189, 0.8),
+    rgba(12, 191, 194, 0.8),
+    rgba(7, 194, 200, 0.8),
+    rgba(3, 196, 205, 0.8),
+    rgba(0, 199, 210, 0.8)
+  );
+  font-family: "Afacad", sans-serif;
+  font-size: 30px;
+  box-shadow: 5px 5px 20px lightgray; /* Set a light gray shadow */
+}
+
+.heading {
+  color: white;
+  font-family: "Afacad", sans-serif;
+  font-family: "Archivo", sans-serif;
+  font-size: 35px;
+  padding-left: 555px;
+  text-decoration: underline;
+  position: relative;
+}
+
+.doodle {
+  position: absolute;
+  transform: translate(0, -50%);
+  padding-top: 5em;
+  padding-left: 30em;
+}
+
+.doodle1 {
+  position: absolute;
+  transform: translate(0, -50%);
+  padding-top: 5em;
+  padding-left: 60em;
+  padding-bottom: 10em;
+}

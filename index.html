@@ -1,0 +1,82 @@
+<!-- Set the document type and language -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set the character set to UTF-8 and configure the viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set the title of the HTML document -->
+    <title>QR Generator</title>
+    <!-- Include an external stylesheet (style.css) for styling -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include Bootstrap CSS from a CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:ital@0;1&family=Archivo:ital,wght@0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include Bootstrap JavaScript from a CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Set the favicon -->
+    <link rel="icon" href="./assets/qr-code (5).png" type="image/x-icon" />
+  </head>
+
+  <body class="body">
+    <!-- Doodle image at the top left -->
+    <div class="doodle">
+      <img src="Assets/code (1).png" />
+    </div>
+    <!-- Heading of the page -->
+    <div class="heading">
+      <p>QR CODE GENERATOR</p>
+    </div>
+    <!-- Doodle image at the top right -->
+    <div class="doodle1">
+      <img src="Assets/code (1).png" />
+    </div>
+    <!-- Create a container with flex properties to center its content -->
+    <div class="container d-flex justify-content-center align-items-center">
+      <!-- Create a card with a specific width -->
+      <div class="card" style="width: 45rem">
+        <div class="card-body card2">
+          <span class="border border-0"></span>
+          <!-- Display a title in the card -->
+          <h5 class="card-title">Enter your text or URL</h5>
+          <!-- Create a horizontal line for visual separation -->
+          <hr class="hr" />
+          <!-- Create a form group with margin at the bottom -->
+          <div class="form-group mb-3">
+            <!-- Label for an input field -->
+            <label for="usr">Name:</label>
+            <!-- Input field for entering text or URL -->
+            <input
+              type="text"
+              placeholder="Text or URL"
+              class="form-control"
+              id="usr"
+            />
+            <!-- Container for displaying the generated QR code image -->
+            <div id="imgbox">
+              <img src="" id="qr_image" alt="QR Code" />
+            </div>
+          </div>
+          <!-- Button to trigger the generation of the QR code -->
+          <button class="btn" id="generateBtn">Generate QR Code</button>
+        </div>
+      </div>
+    </div>
+    <!-- Include a JavaScript file (script.js) -->
+    <script src="script.js"></script>
+  </body>
+</html>
